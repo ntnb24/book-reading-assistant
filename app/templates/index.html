@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question Answering App</title>
+</head>
+<body>
+    <h1>Ask a Question</h1>
+    <input type="text" id="questionInput" placeholder="Type your question here...">
+    <button onclick="askQuestion()">Submit Question</button>
+    <div id="answerSection">
+        <!-- The answers will be displayed here -->
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
